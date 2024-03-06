@@ -1,9 +1,9 @@
-import { memo } from "react";
+import { memo } from 'react';
 
-import { log } from "../../log.js";
+import { log } from '../../log.js';
 
 const IconButton = memo(function IconButton({ children, icon, ...props }) {
-  log("<IconButton /> rendered", 2);
+  log('<IconButton /> rendered', 2);
 
   const Icon = icon;
   return (
